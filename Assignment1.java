@@ -7,5 +7,9 @@ public class Assignment1 {
     "KKK\t\bKKK\tCCCCCCCCCCC\n" + "KKK\t\b\bKKK\tCCC\n" +
     "KKK\t\b\b\b\bKKKK\tCCC\n" + "KKK\t\b\b\bKKK\tCCC\n" +
     "KKK\t\b\bKKK\tCCCCCCCCCCC\n" + "KKK\tKKK\tCCCCCCCCCCC\n" );
+
+    System.out.println();
+
+
   }
 }
