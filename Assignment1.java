@@ -1,5 +1,7 @@
 // Import libraries here
 
+import java.util.Scanner;
+
 public class Assignment1 {
   public static void main(String[] args) {
     // Add your code here
@@ -10,6 +12,18 @@ public class Assignment1 {
 
     System.out.println();
 
+    int Fahrenheit;
+    double Celsius;
+
+    Scanner scan = new Scanner(System.in);
+
+    System.out.print("Enter a number in Fahrenheit: ");
+    Fahrenheit = scan.nextInt();
+
+    Celsius = (Fahrenheit - 32) + 5 / 9 ;
+    System.out.println("Celsius: " + Celsius);
+
+    scan.close();
 
   }
 }
