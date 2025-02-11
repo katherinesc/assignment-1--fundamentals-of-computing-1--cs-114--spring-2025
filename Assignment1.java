@@ -25,5 +25,9 @@ public class Assignment1 {
 
     scan.close();
 
+    System.out.println();
+
+
+
   }
 }
