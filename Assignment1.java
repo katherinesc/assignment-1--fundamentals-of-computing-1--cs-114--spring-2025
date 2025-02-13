@@ -23,9 +23,12 @@ public class Assignment1 {
     Celsius = (Fahrenheit - 32) + 5 / 9 ;
     System.out.println("Celsius: " + Celsius);
 
+    System.out.println();
+
     scan.close();
 
-    System.out.println();
+
+
 
 
 
