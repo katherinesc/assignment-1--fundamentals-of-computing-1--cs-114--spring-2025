@@ -1,6 +1,7 @@
 // Import libraries here
 
 import java.util.Scanner;
+import java.util.Random;
 
 public class Assignment1 {
   public static void main(String[] args) {
@@ -47,9 +48,15 @@ public class Assignment1 {
 
     System.out.println("Reversed string: " + swappedString);
 
-
     scan.close();
 
+
+    Random generator = new Random();
+    int RandomNumber;
+
+    RandomNumber = generator.nextInt(16385) +  32;
+
+    System.out.println("Random number: " + RandomNumber);
 
 
 
