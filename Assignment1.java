@@ -17,7 +17,7 @@ public class Assignment1 {
 
     Scanner scan = new Scanner(System.in);
 
-    System.out.print("Enter a number in Fahrenheit: ");
+    System.out.println("Enter a number in Fahrenheit: ");
     Fahrenheit = scan.nextInt();
 
     Celsius = (Fahrenheit - 32) + 5 / 9 ;
