@@ -36,7 +36,18 @@ public class Assignment1 {
 
     ChangedString = FiveCharacterString.substring(1, 4);
 
-    System.out.print("Changed string: "+ChangedString);
+    System.out.println("Changed string: "+ChangedString);
+
+    char[] ReversedString = ChangedString.toCharArray();
+    char temp = ReversedString[0];
+    ReversedString[0] = ReversedString[2];
+    ReversedString[2] = temp;
+
+    String swappedString = new String(ReversedString);
+
+    System.out.println("Reversed string: " + swappedString);
+
+
     scan.close();
 
 
