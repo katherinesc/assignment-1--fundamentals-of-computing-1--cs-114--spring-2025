@@ -46,6 +46,7 @@ public class Assignment1 {
     scan.close();
 
 
+
     Random generator = new Random();
     int RandomNumber;
 
