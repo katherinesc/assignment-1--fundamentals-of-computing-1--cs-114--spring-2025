@@ -56,6 +56,7 @@ public class Assignment1 {
 
     RandomNumber = generator.nextInt(16385) +  32;
 
+    System.out.println("Generating random number...");
     System.out.println("Random number: " + RandomNumber);
 
 
