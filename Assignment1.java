@@ -11,7 +11,7 @@ public class Assignment1 {
     "KKK\t\b\b\b\bKKKK\tCCC\n" + "KKK\t\b\b\bKKK\tCCC\n" +
     "KKK\t\b\bKKK\tCCCCCCCCCCC\n" + "KKK\tKKK\tCCCCCCCCCCC\n" );
 
-    System.out.println();
+
 
     int Fahrenheit;
     double Celsius;
@@ -21,23 +21,18 @@ public class Assignment1 {
     System.out.println("Enter a number in Fahrenheit: ");
     Fahrenheit = scan.nextInt();
 
-    Celsius = (Fahrenheit - 32) + 5 / 9 ;
-    System.out.println("Celsius: " + Celsius);
-
     System.out.println();
+
+    Celsius = (Fahrenheit - 32) + 5 / 9 ;
+
 
 
     String FiveCharacterString, ChangedString;
 
-
     System.out.println("Enter a 5-character string: ");
     FiveCharacterString = scan.next();
 
-    System.out.println("5-character string: " +FiveCharacterString);
-
     ChangedString = FiveCharacterString.substring(1, 4);
-
-    System.out.println("Changed string: "+ChangedString);
 
     char[] ReversedString = ChangedString.toCharArray();
     char temp = ReversedString[0];
@@ -46,7 +41,7 @@ public class Assignment1 {
 
     String swappedString = new String(ReversedString);
 
-    System.out.println("Reversed string: " + swappedString);
+    System.out.println();
 
     scan.close();
 
@@ -57,11 +52,10 @@ public class Assignment1 {
     RandomNumber = generator.nextInt(16385) +  32;
 
     System.out.println("Generating random number...");
-    System.out.println("Random number: " + RandomNumber);
+    System.out.println();
 
-
-
-
+    System.out.println("The new string is: " + Celsius + swappedString
+    + RandomNumber);
 
   }
 }
