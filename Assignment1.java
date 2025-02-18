@@ -26,15 +26,17 @@ public class Assignment1 {
     System.out.println();
 
 
-    String FiveCharacterString;
+    String FiveCharacterString, ChangedString;
 
 
     System.out.println("Enter a 5-character string: ");
     FiveCharacterString = scan.next();
 
-    System.out.print("5-character string: " +FiveCharacterString);
+    System.out.println("5-character string: " +FiveCharacterString);
 
+    ChangedString = FiveCharacterString.substring(1, 4);
 
+    System.out.print("Changed string: "+ChangedString);
     scan.close();
 
 
